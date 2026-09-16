@@ -6,7 +6,7 @@ class Main {
     System.out.println("Hello world!");
 
     //We will be using System.out.println and System.out.print throughout the year. Try using both below to see what the difference is!
-
+System.out.println("Ilikepasta.")
     //ANSWER: 
 
     //This is my 3rd period change
@@ -42,6 +42,7 @@ class Main {
     //Create codes that will print the following:
 
     //Odd integers from 1 to 100, inclusive of both
+    
 
 
 
