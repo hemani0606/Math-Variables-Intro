@@ -7,7 +7,9 @@ class Main {
 
     //We will be using System.out.println and System.out.print throughout the year. Try using both below to see what the difference is!
 
-    //ANSWER: 
+    //ANSWER: System.out.println("This is println.")
+    System.out.print("Stays on the same line.")
+      
 
     //This is my 3rd period change
 
@@ -20,36 +22,53 @@ class Main {
     //For AP we need to know: int, double, boolean
 
     //List examples of the types below and give definition
-    //int (integer): 
-    //double:
-    //boolean:
+    //int (integers or whole numbers): -3,4,6
+    //double (decimal numbers): 3.76, 12.54
+    //boolean (true or false statements):
 
     //For now we are just going to work with primitive
 
     //Create 3 variables of each of the above types (USE GOOD CODING PRACTICE WHEN CREATING THE VARIABLES
+int age=15;
+int children= 30;
+int score=93;
 
+double price=3.95;
+double testGrade= 4.5;
+double height= 13.4;
 
-
-
-
+boolean likesBaking=true;
+boolean isCold= false;
+boolean hatesMath= true;
+  
     //MATH TIME!
 
     //What are the math operators that we can use?
-    //+ - * / %
+    //+ - * / % (addition, subtraction, multiplication, division, and double)
 
     //Try doing some math operations with numbers. How can we check to see if the math worked?
-
+System.out.println(5+3);
+System.out.println(5-6);
+System.out.println(6 * 2);
+System.out.println(8/2);
+System.out.println(12%5);
     //Create codes that will print the following:
 
     //Odd integers from 1 to 100, inclusive of both
-
+for (int i=1; i<=100; i+=2) {
+  System.out.println(i);
+}
 
 
     //All multiples of 3 from 1 to 100
-
-
+for(int i=3; i<=100; i +=2) {
+  System.out.println(i);
+}
 
 
     //Starting at 1000, print on the same line (with a - [hypthen] between each) all of the numbers that end in 0 going down to 0
+ for (int i=1000; i>=0; i-=10) {
+   System.out.println(i);
   }
+}
 }
